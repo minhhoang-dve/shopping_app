@@ -1,0 +1,54 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+section .logo {
+    margin-bottom: 30px;
+}
+section h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+section p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+section a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+section .follow {
+    margin-top: 20px;
+}
+section .follow i{
+    color: #465b52;
+    padding-right: 5px;
+    cursor: pointer;
+}
+section .follow i:hover,
+ section a:hover{
+    color: #088178;
+}
+
+section .install .row img{
+    border: 1px solid #6fa38c;
+    border-radius: 7px;
+    margin-right: 3px;
+}
+section .install img{
+    margin: 10px 0 15px 0 ;
+}
+section .copyright {
+    width: 100%;
+    text-align: center;
+}
+
